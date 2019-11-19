@@ -76,6 +76,7 @@ class Student
     sql = <<-SQL
       SELECT *
       FROM students
+      WHERE 
     SQL
 
   end
